@@ -6,3 +6,9 @@ varReference:
   kind: ConfigMap
 - path: metadata/annotations/volume.beta.kubernetes.io\/storage-class
   kind: PersistentVolumeClaim
+- path: subjects/namespace
+  kind: ClusterRoleBinding
+  apiVersion: rbac.authorization.k8s.io/v1
+- path: metadata/name
+  kind: ClusterRoleBinding
+  apiVersion: rbac.authorization.k8s.io/v1
