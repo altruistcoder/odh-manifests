@@ -15,6 +15,7 @@ resources:
 - jupyterhub-route.yaml
 - jupyterhub-singleuser-profiles-configmap.yaml
 - jupyterhub-spark-operator-configmap.yaml
+- jupyterhub-clusterrolebinding.yaml
 
 commonLabels:
   opendatahub.io/component: "true"
