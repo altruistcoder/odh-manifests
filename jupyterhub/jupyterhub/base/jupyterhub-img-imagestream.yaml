@@ -11,7 +11,7 @@ spec:
       openshift.io/imported-from: quay.io/harryv98/jupyterhub-img
     from:
       kind: DockerImage
-      name: quay.io/harryv98/jupyterhub-img:test
+      name: quay.io/harryv98/jupyterhub-img:prod-bkt
     name: latest
     referencePolicy:
       type: Source
